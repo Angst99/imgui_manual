@@ -11,6 +11,7 @@ add_subdirectory(imgui_utilities)
 add_subdirectory(source_parse)
 #add_subdirectory(make_example_apps)
 add_subdirectory(imgui_demo_hellorun)
+add_subdirectory(imgui_demo)
 
 FILE(GLOB sources_imgui_manual
     ${CMAKE_CURRENT_LIST_DIR}/*.h
